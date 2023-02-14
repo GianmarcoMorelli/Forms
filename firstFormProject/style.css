@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Norse bold';
+    src: url('fonts/Norse-Bold.otf');
+}
+
+body{
+    margin: 0;
+}
+
+form{
+    display: flex;
+    gap: 3vw;
+    padding-left: 3vw;
+    margin-bottom: 16px;
+    height: calc(100vh / 3 - 10vh - 50px - 16px);
+}
+
+p{
+    padding-left: 3vw;
+}
+
+input{
+    border-color: #E5E7EB;
+    border-radius: 5px;
+}
+
+input:hover{
+    border-color: blue;
+    box-shadow: 3px 3px gray;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.left{
+    background-image: url("images/flowers-nature-plant-spring.jpg");
+    width: calc(100vw / 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100vw / 3 * 2);
+}
+
+.right-top,.right-bottom{
+    background-color: rgb(228, 228, 228);
+    height: calc(100vh / 3 + 5vh);
+}
+
+.right-mid{
+    background-color: white;
+    height: calc(100vh / 3 - 10vh);
+    box-shadow: 10px 10px darkgreen;
+}
+
+.form-left,.form-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.submit-button{
+    margin-left: 3vw;
+    margin-top: 16px;
+    width: 10vw;
+    height: 5vh;
+    background-color: #596D48;
+    color: white;
+    border-radius: 5px;
+}
+
+.first-p{
+    margin-top: 20vh;
+}
+
+.footer{
+    color: white;
+    height: calc(100vh / 2);
+    display: flex;
+    align-items: end;
+}
+
+.footer-p{
+    padding: 0;
+}
+
+.logo{
+    color: white;
+    height: calc(100vh / 2);
+    display: flex;
+    align-items: center;
+    
+}
+
+.odin-back{
+    background-color: rgba(0,0,0,.5);
+    width: calc(100vw / 3);
+    display: flex;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.odin{
+    padding: 0;
+    font-family: 'Norse Bold';
+    font-size: x-large;
+}
+
+.form-separation{
+    display: flex;
+    flex-direction: column;
+}
+
+.odin-logo-img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}

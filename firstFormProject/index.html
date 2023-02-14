@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="logo">
+                <div class="odin-back">
+                    <img src="images/odin-lined.png" alt="The Odin Logo" class="odin-logo-img">
+                    <p class="odin">Odin</p>
+                </div>
+            </div>
+            <div class="footer">
+                <p class="footer-p">Photo by Pixabay on Pexels</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-top">
+                <p class="first-p">This is not a real online service! You know you need something <br>
+                    like this in your life to help you realize your deepest dreams. <br>
+                    Sign up <em>now</em> to get started.
+                </p>
+                <p>You <em>know</em> what you want to.</p>
+            </div>
+            <div class="right-mid">
+                <p>Let's do this!</p>
+                <form action="" method="get" onsubmit="return validatePassword()">
+                    <div class="form-left">
+                        <div class="form-separation">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name">
+                        </div>
+                        <div class="form-separation">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="form-separation">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" class="error">
+                        </div>
+                    </div>
+                    <div class="form-right">
+                        <div class="form-separation">
+                            <label for="first-name">LAST NAME</label>
+                            <input type="text" id="first-name">
+                        </div>
+                        <div class="form-separation">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="tel" id="phone-number">
+                        </div>
+                        <div class="form-separation">
+                            <label for="password-confirm">CONFIRM PASSWORD</label>
+                            <input type="password" id="password-confirm" class="error">
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="right-bottom">
+                    <input type="submit" class="submit-button" value="Create Account">
+                </form>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
